@@ -15,8 +15,8 @@ Install webdrivers:
 - `webdrivermanager firefox chrome opera --linkpath ./drivers`
 
 Test Execution with `Robot Framework`:
-* `rrobot -d Results --variable BROWSER:chrome ./Tests/FireFly.robot`
-* `rrobot -d Results --variable BROWSER:opera ./Tests/FireFly.robot`
+* `robot -d Results --variable BROWSER:chrome ./Tests/FireFly.robot`
+* `robot -d Results --variable BROWSER:opera ./Tests/FireFly.robot`
 
 Deactivate Virtual Environment:
 * `deactivate`
